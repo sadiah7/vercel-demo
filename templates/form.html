@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .c1{
+            display: flex;
+            border: 1px;
+            height: 380px;width:800px;
+            background-color:rgb(255, 255, 255);
+            padding:25px;
+            border-top: 5px solid rgb(2, 110, 219);
+            border-radius: 5px;}
+        .c3{
+            height: 50px;
+            width: 370px;
+            font-size: large;
+            font-family:sans-serif;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(203, 201, 201);}
+        .c4{
+            float: left;}
+        .c5{
+            clear: left;}
+    </style>
+</head>
+<body style="display: flex; align-items: center; background-color: lightgrey; flex-direction: column;">
+
+<br><br>
+
+    <div class="c1">
+
+        <form action="/form" method="post">
+
+            <h1 style="display: flex;font-family: sans-serif; color: dimgrey;flex-wrap: nowrap;justify-content: center;">
+                Registration Page
+            </h1>
+
+            <div class="c4">
+                <input type="text" class="c3" name="fn" placeholder="Enter the firstname">
+            </div>
+
+            <div class="c4">
+                <input type="text" class="c3" name="ln" placeholder="Enter the lastname">
+            </div>
+
+            <div class="c5 c4">
+                <input type="text" class="c3" name="un" placeholder="Enter the username">
+            </div>
+
+            <div class="c4">
+                <input type="password" class="c3" name="pas" placeholder="Enter the password">
+            </div>
+
+            <div style="display: flex; justify-content: center; margin-top: 210px">
+                <input type="submit" value="Register"
+                style="background-color: dodgerblue; color: aliceblue; width: 300px; height: 35px;
+                border: 0px; font-size: large; font-family: sans-serif; border-radius: 4px; background-image: linear-gradient(to right,
+                rgb(20, 89, 227) ,  rgb(46, 137, 241));">
+            </div>
+
+            <br>
+
+            <center><p style="font-family: sans-serif; color: rgb(65, 63, 63)">Already Registered?</p></center>
+
+            <br><br>
+
+        </form>
+
+    </div>
+
+</body>
